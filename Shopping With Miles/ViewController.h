@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import "OfferViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<CLLocationManagerDelegate>
 
+-(void)offerDismissed;
 
 @end
 

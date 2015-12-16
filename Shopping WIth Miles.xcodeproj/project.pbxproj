@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56A4D5921B63A5CF0095FAA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A4D5911B63A5CF0095FAA7 /* LaunchScreen.xib */; };
+		56A4D5941B63A5E90095FAA7 /* cisco-meraki.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4D5931B63A5E90095FAA7 /* cisco-meraki.png */; };
+		56A4D5961B63B4900095FAA7 /* ms-hangout.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4D5951B63B4900095FAA7 /* ms-hangout.png */; };
+		56A4D5981B63B4990095FAA7 /* mx-hangout.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4D5971B63B4990095FAA7 /* mx-hangout.png */; };
+		56A4D59A1B63B49F0095FAA7 /* sm-hangout.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4D5991B63B49F0095FAA7 /* sm-hangout.png */; };
 		56AF237C1B48DFB5004FE1EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF237B1B48DFB5004FE1EF /* main.m */; };
 		56AF237F1B48DFB5004FE1EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF237E1B48DFB5004FE1EF /* AppDelegate.m */; };
 		56AF23821B48DFB5004FE1EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF23811B48DFB5004FE1EF /* ViewController.m */; };
 		56AF23851B48DFB5004FE1EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56AF23831B48DFB5004FE1EF /* Main.storyboard */; };
 		56AF23871B48DFB5004FE1EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AF23861B48DFB5004FE1EF /* Images.xcassets */; };
-		56AF238A1B48DFB5004FE1EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56AF23881B48DFB5004FE1EF /* LaunchScreen.xib */; };
 		56AF23961B48DFB5004FE1EF /* Shopping_With_MilesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF23951B48DFB5004FE1EF /* Shopping_With_MilesTests.m */; };
+		56AF23A21B48E0E1004FE1EF /* mr-hangout.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AF239F1B48E0E1004FE1EF /* mr-hangout.png */; };
+		56AF23A71B48E14C004FE1EF /* OfferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AF23A61B48E14C004FE1EF /* OfferViewController.m */; };
+		56AF23A91B48E32D004FE1EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AF23A81B48E32D004FE1EF /* QuartzCore.framework */; };
+		56AF23AB1B48E342004FE1EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AF23AA1B48E342004FE1EF /* CoreLocation.framework */; };
+		56E376551B7A06A600713745 /* settings_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56E376541B7A06A600713745 /* settings_icon.png */; };
+		56E376571B7A0C5C00713745 /* Shopping With Miles.png in Resources */ = {isa = PBXBuildFile; fileRef = 56E376561B7A0C5C00713745 /* Shopping With Miles.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56A4D5911B63A5CF0095FAA7 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		56A4D5931B63A5E90095FAA7 /* cisco-meraki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cisco-meraki.png"; sourceTree = "<group>"; };
+		56A4D5951B63B4900095FAA7 /* ms-hangout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ms-hangout.png"; sourceTree = "<group>"; };
+		56A4D5971B63B4990095FAA7 /* mx-hangout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mx-hangout.png"; sourceTree = "<group>"; };
+		56A4D5991B63B49F0095FAA7 /* sm-hangout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sm-hangout.png"; sourceTree = "<group>"; };
 		56AF23761B48DFB5004FE1EF /* Shopping With Miles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping With Miles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56AF237A1B48DFB5004FE1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56AF237B1B48DFB5004FE1EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,10 +51,16 @@
 		56AF23811B48DFB5004FE1EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		56AF23841B48DFB5004FE1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56AF23861B48DFB5004FE1EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		56AF23891B48DFB5004FE1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		56AF238F1B48DFB5004FE1EF /* Shopping With MilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopping With MilesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56AF23941B48DFB5004FE1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56AF23951B48DFB5004FE1EF /* Shopping_With_MilesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shopping_With_MilesTests.m; sourceTree = "<group>"; };
+		56AF239F1B48E0E1004FE1EF /* mr-hangout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mr-hangout.png"; sourceTree = "<group>"; };
+		56AF23A51B48E14C004FE1EF /* OfferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferViewController.h; sourceTree = "<group>"; };
+		56AF23A61B48E14C004FE1EF /* OfferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferViewController.m; sourceTree = "<group>"; };
+		56AF23A81B48E32D004FE1EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		56AF23AA1B48E342004FE1EF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		56E376541B7A06A600713745 /* settings_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_icon.png; sourceTree = "<group>"; };
+		56E376561B7A0C5C00713745 /* Shopping With Miles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shopping With Miles.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56AF23AB1B48E342004FE1EF /* CoreLocation.framework in Frameworks */,
+				56AF23A91B48E32D004FE1EF /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,10 @@
 		56AF236D1B48DFB5004FE1EF = {
 			isa = PBXGroup;
 			children = (
+				56AF23AA1B48E342004FE1EF /* CoreLocation.framework */,
+				56AF23A81B48E32D004FE1EF /* QuartzCore.framework */,
+				56AF23A51B48E14C004FE1EF /* OfferViewController.h */,
+				56AF23A61B48E14C004FE1EF /* OfferViewController.m */,
 				56AF23781B48DFB5004FE1EF /* Shopping With Miles */,
 				56AF23921B48DFB5004FE1EF /* Shopping With MilesTests */,
 				56AF23771B48DFB5004FE1EF /* Products */,
@@ -81,13 +108,20 @@
 		56AF23781B48DFB5004FE1EF /* Shopping With Miles */ = {
 			isa = PBXGroup;
 			children = (
+				56E376561B7A0C5C00713745 /* Shopping With Miles.png */,
+				56E376541B7A06A600713745 /* settings_icon.png */,
+				56A4D5931B63A5E90095FAA7 /* cisco-meraki.png */,
+				56A4D5991B63B49F0095FAA7 /* sm-hangout.png */,
+				56A4D5971B63B4990095FAA7 /* mx-hangout.png */,
+				56A4D5951B63B4900095FAA7 /* ms-hangout.png */,
+				56AF239F1B48E0E1004FE1EF /* mr-hangout.png */,
 				56AF237D1B48DFB5004FE1EF /* AppDelegate.h */,
 				56AF237E1B48DFB5004FE1EF /* AppDelegate.m */,
 				56AF23801B48DFB5004FE1EF /* ViewController.h */,
 				56AF23811B48DFB5004FE1EF /* ViewController.m */,
 				56AF23831B48DFB5004FE1EF /* Main.storyboard */,
 				56AF23861B48DFB5004FE1EF /* Images.xcassets */,
-				56AF23881B48DFB5004FE1EF /* LaunchScreen.xib */,
+				56A4D5911B63A5CF0095FAA7 /* LaunchScreen.xib */,
 				56AF23791B48DFB5004FE1EF /* Supporting Files */,
 			);
 			path = "Shopping With Miles";
@@ -168,6 +202,7 @@
 				TargetAttributes = {
 					56AF23751B48DFB5004FE1EF = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 9FE5K42X2Q;
 					};
 					56AF238E1B48DFB5004FE1EF = {
 						CreatedOnToolsVersion = 6.4;
@@ -175,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 56AF23711B48DFB5004FE1EF /* Build configuration list for PBXProject "Shopping With Miles" */;
+			buildConfigurationList = 56AF23711B48DFB5004FE1EF /* Build configuration list for PBXProject "Shopping WIth Miles" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -200,8 +235,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				56AF23851B48DFB5004FE1EF /* Main.storyboard in Resources */,
-				56AF238A1B48DFB5004FE1EF /* LaunchScreen.xib in Resources */,
+				56A4D5981B63B4990095FAA7 /* mx-hangout.png in Resources */,
+				56A4D5921B63A5CF0095FAA7 /* LaunchScreen.xib in Resources */,
+				56A4D5961B63B4900095FAA7 /* ms-hangout.png in Resources */,
+				56E376551B7A06A600713745 /* settings_icon.png in Resources */,
+				56A4D59A1B63B49F0095FAA7 /* sm-hangout.png in Resources */,
 				56AF23871B48DFB5004FE1EF /* Images.xcassets in Resources */,
+				56AF23A21B48E0E1004FE1EF /* mr-hangout.png in Resources */,
+				56E376571B7A0C5C00713745 /* Shopping With Miles.png in Resources */,
+				56A4D5941B63A5E90095FAA7 /* cisco-meraki.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56AF23821B48DFB5004FE1EF /* ViewController.m in Sources */,
+				56AF23A71B48E14C004FE1EF /* OfferViewController.m in Sources */,
 				56AF237F1B48DFB5004FE1EF /* AppDelegate.m in Sources */,
 				56AF237C1B48DFB5004FE1EF /* main.m in Sources */,
 			);
@@ -250,14 +293,6 @@
 				56AF23841B48DFB5004FE1EF /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		56AF23881B48DFB5004FE1EF /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				56AF23891B48DFB5004FE1EF /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -349,7 +384,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Shopping With Miles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,7 +396,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Shopping With Miles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -402,7 +441,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		56AF23711B48DFB5004FE1EF /* Build configuration list for PBXProject "Shopping With Miles" */ = {
+		56AF23711B48DFB5004FE1EF /* Build configuration list for PBXProject "Shopping WIth Miles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56AF23971B48DFB5004FE1EF /* Debug */,
@@ -418,6 +457,7 @@
 				56AF239B1B48DFB5004FE1EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56AF239C1B48DFB5004FE1EF /* Build configuration list for PBXNativeTarget "Shopping With MilesTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +466,7 @@
 				56AF239E1B48DFB5004FE1EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
